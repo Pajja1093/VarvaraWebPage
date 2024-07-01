@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="MediaQueries.css">
+    <title>Varvara Němcová - Učitelka Matematiky</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Varvara Němcova</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">O mě</a></li>
+            <li><a href="#offers">Nabídka</a></li>
+            <li><a href="#contact">Kontakty</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Varvara Němcová</div>
+            <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">O mě</a></li>
+            <li><a href="#offers" onclick="toggleMenu()">Nabídka</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Kontakty</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id = "profile">
+        <div class="section__pic-container">
+            <img src="./Pictures/Varvara.png" alt="Varvara Nemcova profilova fotka" class="profile-pic">
+        </div>
+        <div class="section__text">
+            <p class="section_text_p1"> Ahoj, Jsem</p>
+            <h1 class="title">Varvara Němcová</h1>
+            <p class="section__text_p2">Učitelka Matematiky</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./CV/CV.pdf')">Můj životopis</button>
+                <button class="btn btn-color-2" onclick="location.href='#contact'">Kontakty</button>
+            </div>
+            <div id="socials-container">
+                <img src="./Pictures/Facebook_icon.png" alt="Muj Facebook profil" class="icon" onclick="location.href='https://www.facebook.com/varvara.vasileva.96'">
+                <img src="./Pictures/Instagram.png" alt="Muj Instagram profil" class="icon" onclick="location.href='https://www.instagram.com/_barbora_99/?igsh=MXh3NjVwZXhocGs0ZQ%3D%3D&fbclid=IwZXh0bgNhZW0CMTAAAR0CwYED1eiFpAlXIgAfJ3GvGwDtcG6ZBsuqM9D69aCWHihsq0sRMyg5nV4_aem_hT9KMyWOkByy1U5YvB65Ig'">
+            </div>
+        </div>
+    </section>
+      <section id="about">
+        <h1 class="title">O mě</h1>
+            <div class="section-container">
+                <!--
+                <div class="section__pic-container">
+                    <img src="./Pictures/Varvara2.png" alt="Profilovi obrazek"  class="about-pic">
+                </div>
+                -->
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./Pictures/experienceicon.png" alt="Zkusenosti ikona" class="icon"/>
+                            <h3>Zkušenosti</h3>
+                            <h4>Učitelka matematiky.</h4>
+                            <p> 2+ roky</p>
+                            <p>Doučování matematiky pro SŠ a víceletá gymnázia</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./Pictures/educationicon.png" alt="Uceni ikona" class="icon"/>
+                            <h3>Vzdělání</h3>
+                            <p>Masarykova Univerzita Brno<br>Matematika a výchova ke zdraví</p>
+                        </div>
+                    </div>
+                    <div class="about-me-description">
+                        <h3>Něco o mě</h3>
+                        <div class="text-container">
+                            <p>Je mi 25 let a původem jsem z Ruska kde jsem se narodila i vyrůstala. Zde jsem vystudovala matematickou školu s červeným diplomem. V česku jsem od svých 18 let.</p>
+                            <p>Aktuálně jsem studentkou Masarykovi univerzity, obor Matematika a výchova ke zdraví s navazujícím magisterským studiem. Pracuji jako učitelka Matematiky a Fyziky na základní škole.</p>
+                            <p>Také doučuji děti které se chystají k příjmacím zkouškám na SŠ nebo gymnázium. Ve svém volném čase se věnuji svím pejskům a manželovi.</p>
+                            <p>Ráda zahradničím nebo cestuji nebo poslouchám hudbu či sleduji své oblíbené serialy.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </section>
+      <section id="offers">
+        <h1 class="title">Moje aktuální nabídka doučování</h1>
+        <div class="section-container">
+            <div class="offer-container">
+                <div class="offer">
+                    <img src="./Pictures/Mathicon.png" alt="Uceni ikona" class="icon"/>
+                    <h3>Matematika</h3>
+                    <p>Doučování matematiky pro všechny ty kteří mají zájem</p>
+                    <h4>Cena</h4>
+                    <p>300Kč / hodina</p>
+                    <h4>Možnosti prezence</h4>
+                    <p>Online i osobně</p>
+                    <h4>Kde</h4>
+                    <p>Brno</p>
+                </div>
+                <div class="offer">
+                    <img src="./Pictures/physicicon.png" alt="Uceni ikona" class="icon"/>
+                    <h3>Fyzika</h3>
+                    <p>Doučování fyziky pro všechny ty kteří mají zájem</p>
+                    <h4>Cena</h4>
+                    <p>300Kč / hodina</p>
+                    <h4>Možnosti prezence</h4>
+                    <p>Online i osobně</p>
+                    <h4>Kde</h4>
+                    <p>Brno</p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h1 class="title">Moje kontakty</h1>
+        <div class="section-container">
+            <div class="my-socials-container">
+                <div class="social-page">
+                        <img src="./Pictures/email.png" alt="Email" class="icon_social">
+                    <div class="content">
+                        <p>pz-vas-var@seznam.cz</p>
+                    </div>
+                </div>
+                <div class="social-page">
+                        <img src="./Pictures/phone.png" alt="Phone" class="icon_social">
+                    <div class="content">
+                        <p>735 073 822</p>
+                    </div>
+                </div>
+                <div class="social-page">
+                    <img src="./Pictures/Facebook_icon.png" alt="Facebook" class="icon_social">
+                    <a href="https://www.facebook.com/varvara.vasileva.96">Facebook</a>
+                </div>
+                <div class="social-page">
+                    <img src="./Pictures/Instagram.png" alt="Instagram" class="icon_social">
+                    <a href="https://www.instagram.com/_barbora_99/?igsh=MXh3NjVwZXhocGs0ZQ%3D%3D&fbclid=IwZXh0bgNhZW0CMTAAAR0CwYED1eiFpAlXIgAfJ3GvGwDtcG6ZBsuqM9D69aCWHihsq0sRMyg5nV4_aem_hT9KMyWOkByy1U5YvB65Ig">Instagram</a>
+                </div>
+            </div>
+        </div>
+      </section>
+    <script src="Scripts.js"></script>
+</body>
+</html>
+

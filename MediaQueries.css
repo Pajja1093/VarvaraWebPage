@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1400px) {
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .about-container{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #experience, .experience-details-container{
+        margin-top: 2rem;
+    }
+    #profile, .section-container{
+        display: block;
+        height: 100vh;
+    }
+    .arrow{
+        display: none;
+    }
+    section,.section-container{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .section__pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+        justify-content: center;
+    }
+    .about-containers{
+        margin-top: 0;
+    }   
+}
+@media only screen and (max-width: 600px) {
+    #contact{
+        height: 40vh;
+        display: block;
+    }
+    #profile{
+        height: 50hv;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    section{
+        margin: 0 5%;
+        display: block;
+    }
+    .my-socials-container, .offer-container{
+        display: block;
+    }
+    .offer
+    {
+        margin: 5px;
+    }
+    .social-page{
+        margin: 5px;
+    }
+    .section__pic-container{
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #contact{
+        height: 40vh;
+        display: block;
+    }
+    #profile{
+        height: 50hv;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    section{
+        margin: 0 5%;
+        display: block;
+    }
+    .my-socials-container, .offer-container{
+        display: block;
+    }
+    .offer
+    {
+        margin: 5px;
+    }
+    .social-page{
+        margin: 5px;
+    }
+    .section__pic-container{
+        justify-content: center;
+    }
+}
+  
